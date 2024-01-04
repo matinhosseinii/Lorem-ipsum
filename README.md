@@ -1,4 +1,4 @@
 # Lorem-ipsum
-"Choob Lebasi" \n
-edited by aminwclub for test ^_^ \n
+"Choob Lebasi" <br>
+edited by aminwclub for test ^_^ <br>
 matiow va nokaran
