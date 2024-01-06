@@ -1,10 +1,10 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react'
-import profile from './AVATAR.png'
-import notification from './NOTIFICATION.png'
-import cart from './CART.png'
-import serach from './search icon.png'
-import logo from './logo.png'
+import profile from '/image/AVATAR.png'
+import notification from '/image/NOTIFICATION.png'
+import cart from '/image/CART.png'
+import serach from '/image/search icon.png'
+import logo from '/image/logo.png'
 import './Navbar.css'
 
 export default function Navbar() {

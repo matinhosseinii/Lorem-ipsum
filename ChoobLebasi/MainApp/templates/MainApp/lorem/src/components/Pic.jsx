@@ -1,4 +1,4 @@
-import illustor from './illustration.png'
+import illustor from '/image/illustration.png'
 import './Pic.css'
 
 export default function Pic() {
