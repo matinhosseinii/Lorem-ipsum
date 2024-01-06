@@ -1,0 +1,109 @@
+/* navbar */
+@font-face {
+    font-family: "Sarbaz";
+    src: url(/fonts/Sarbaz.ttf);
+}
+
+.nav {
+
+    background-color: #F1F5FD;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.mainNavbar {
+    border-radius: 16px;
+    width: 1232px;
+    padding: 20px;
+    flex-shrink: 0;
+    background-color: #C7D9F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    box-shadow: 8px 0 16px rgba(0, 0, 0, 0.2), -8px 0 16px rgba(0, 0, 0, 0.2);
+
+}
+
+.profile {
+    display: flex;
+    flex: 2;
+    align-items: center in !important;
+    justify-content: space-around !important;
+}
+
+.seraching {
+    flex: 7;
+    align-items: center;
+    width: 668.633px;
+    height: 54.582px;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    background-color: #F1F5FD;
+    margin-left: 30px;
+    border-radius: 64px;
+}
+
+.serachIcon {
+
+    object-fit: cover;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+
+.serachinput {
+    padding: 2px;
+    width: 668.633px;
+    height: 33px;
+    border: none;
+    border-radius: 4px;
+    background-color: #F1F5FD;
+    outline: none;
+    font-size: large;
+    align-items: center;
+}
+
+.mainLogo {
+    flex: 2;
+}
+
+.secondNav {
+    font-family: "Sarbaz";
+    font-size: 3vh;
+    background-color: #F1F5FD;
+    width: 1171px;
+    height: 60px;
+    flex-shrink: 0;
+    filter: drop-shadow(0px 4px 17px rgba(0, 0, 0, 0.30));
+    border-bottom-right-radius: 100px;
+    /* Adjust the radius as needed */
+    border-bottom-left-radius: 100px;
+
+}
+
+.mainList {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
+}
+
+.list {
+    list-style-type: none;
+}
+
+.ListItem {
+    text-decoration: none;
+    color: #1F264C;
+    text-align: center;
+    font-family: Sarbaz;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
