@@ -1,0 +1,163 @@
+@font-face {
+    font-family: "PeydaBold";
+    src: url(/fonts/Peyda-Bold);
+}
+
+@font-face {
+    font-family: "Peyda-ExtraBold";
+    src: url(/fonts/Peyda-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: "Sarbaz";
+    src: url(/fonts/Sarbaz.ttf);
+}
+
+.listOfProductInBox {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    border-radius: 28px;
+    background: rgba(255, 255, 255, 0.07);
+    box-shadow: 0px 0px 7.9px 2px rgba(0, 0, 0, 0.40);
+    backdrop-filter: blur(6.5px);
+    width: 400px;
+    height: 236px;
+    flex-shrink: 0;
+}
+
+.rowOfProduct {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 16px;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 90px;
+
+}
+
+.nameOfpRODUCT {
+    color: var(--950, #1F264C);
+    text-align: center;
+    font-family: Peyda-ExtraBold;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.clothImage {
+    width: 142px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: -1px 0px 2.5px 1px rgba(31, 38, 76, 0.50);
+    margin-top: 15px;
+    margin-left: 10px;
+    transition: width 2s, height 4s;
+
+}
+
+.clothImage:hover {
+    transform: scale(1.5);
+
+}
+
+.attribute {
+    color: #3650BF;
+    text-align: center;
+    font-family: Peyda-ExtraBold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    margin: 8px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 5px;
+    flex: 3;
+}
+
+.location {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.priceAndLocation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 5;
+
+
+}
+
+.price {
+    color: var(--950, #1F264C);
+    text-align: center;
+    font-family: Sarbaz;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.title {
+    color: #000;
+    text-align: center;
+    font-family: Sarbaz;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 20px;
+}
+
+.circles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page {
+    margin: 10px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.number {
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-family: Sarbaz;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 18px;
+    margin-top: 12px;
+}
+
+.Bignumber {
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-family: Sarbaz;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+   margin-left: 12px;
+   margin-top: 12px;
+
+
+}

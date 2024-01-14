@@ -1,18 +1,21 @@
+@font-face {
+    font-family: "Cinema";
+    src: url(/fonts/Cinema.ttf);
+}
 .SecondPartWithMainPic {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    padding: 50px;
+    padding: 20px;
 }
 
 .text {
     color: #000;
     text-align: center;
     font-family: Cinema;
-    font-size: 100px;
+    font-size: 128px;
     font-style: normal;
     font-weight: 400;
     line-height: 97%;
-    /* 124.16px */
 }

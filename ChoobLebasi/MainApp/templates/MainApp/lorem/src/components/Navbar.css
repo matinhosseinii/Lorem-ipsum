@@ -1,7 +1,7 @@
 /* navbar */
 @font-face {
     font-family: "Sarbaz";
-    src: url(/fonts/Sarbaz.ttf);
+    src: url(static/fonts/Sarbaz.ttf);
 }
 
 .nav {
@@ -83,6 +83,7 @@
     /* Adjust the radius as needed */
     border-bottom-left-radius: 100px;
 
+
 }
 
 .mainList {
@@ -90,6 +91,7 @@
     align-items: center;
     flex-direction: row-reverse;
     justify-content: space-around;
+   height: 15px;
 
 }
 

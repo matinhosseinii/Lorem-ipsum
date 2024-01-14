@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Peyda-Medium";
+    src: url(/fonts/Sarbaz.ttf);
+}
+
+@font-face {
+    font-family: "Peyda-Medium";
+    src: url(/fonts/Peyda-Medium);
+}
+@font-face {
+    font-family: "Peyda-Black";
+    src: url(/fonts/Peyda-Black);
+}
+@font-face {
+    font-family: "Peyda-ExtraBold";
+    src: url(/fonts/Peyda-ExtraBold.ttf);
+}
+
+.entekhbText {
+    color: #000;
+    text-align: center;
+    font-family: Sarbaz;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.ThirdPart {
+    display: flex;
+    flex-direction: column;
+    width: 1500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ThreeOption {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1100px;
+}
+
+.FiveOPtion {
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.options {
+    font-family: "Peyda-ExtraBold";
+    color: #000;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    margin-top: 2px;
+
+}
+.cermony{
+   padding: 10px;
+}
