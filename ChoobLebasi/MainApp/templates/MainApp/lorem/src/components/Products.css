@@ -13,7 +13,7 @@
     src: url(/fonts/Sarbaz.ttf);
 }
 
-.listOfProductInBox {
+ .listOfProductInBox {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -24,9 +24,91 @@
     width: 400px;
     height: 236px;
     flex-shrink: 0;
+    margin-left: 50px;
+}
+.description {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-between;
+    align-items: center;
+    margin-right: 5px;
+    flex: 3;
+}
+.clothImage {
+    width: 142px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: -1px 0px 2.5px 1px rgba(31, 38, 76, 0.50);
+    margin-top: 15px;
+    margin-left: 10px;
+    transition: width 2s, height 4s;
+
 }
 
+.clothImage:hover {
+    transform: scale(1.5);
+
+}
 .rowOfProduct {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    align-items: center;
+    margin-top: 20px;
+    justify-content:right;
+    width: 100%;
+}
+.attributes{
+  display: grid;
+  grid-gap: 0px;
+  flex: 6;
+  height: 236px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  
+}
+.attribute {
+    color: #3650BF;
+    text-align: center;
+    font-family: Peyda-ExtraBold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    margin: 8px;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 7px;
+}
+
+.TimeAndPrice{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    height: 30px;
+   
+}
+.DaysAndLoc{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+
+   
+}
+
+.location {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+
+}
+/*
+ .rowOfProduct {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 16px;
@@ -99,7 +181,7 @@
     flex: 5;
 
 
-}
+} */ 
 
 .price {
     color: var(--950, #1F264C);
@@ -156,8 +238,82 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-   margin-left: 12px;
-   margin-top: 12px;
+    margin-left: 12px;
+    margin-top: 12px;
 
 
+}
+
+.dote {
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-family: Sarbaz;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 14px;
+    margin-top: 6px;
+}
+
+.NamesMalls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    width: 100%;
+
+
+
+
+}
+
+.Malss {
+    display: flex;
+    flex-direction: row;
+    border-radius: 28px;
+    background: rgba(255, 255, 255, 0.07);
+    box-shadow: 0px 0px 7.9px 2px rgba(0, 0, 0, 0.40);
+    backdrop-filter: blur(6.5px);
+    justify-content: space-around;
+    padding: 5px;
+    width: 1041px;
+    height: 319px;
+    flex-shrink: 0;
+
+}
+
+.selasPlace {
+    color: #000;
+    text-align: center;
+    font-family: Sarbaz;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px;
+}
+
+.city {
+    color: var(--950, #1F264C);
+    text-align: center;
+    font-family: Sarbaz;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 10px;
+}
+
+.montakhab {
+    color: #000;
+    text-align: center;
+    font-family: Sarbaz;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 30px;
 }

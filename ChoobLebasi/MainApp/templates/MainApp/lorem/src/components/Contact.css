@@ -1,0 +1,190 @@
+@font-face {
+    font-family: "peyda-light";
+    src: url(/fonts/peyda-light.ttf);
+}
+
+@font-face {
+    font-family: "Peyda-Black";
+    src: url(/fonts/Peyda-Blackt.ttf);
+}
+
+
+@font-face {
+    font-family: "Peyda-Medium";
+    src: url(/fonts/Peyda-Medium);
+}
+
+@font-face {
+    font-family: "Peyda-Black";
+    src: url(/fonts/Peyda-Black);
+}
+
+@font-face {
+    font-family: "Peyda-ExtraBold";
+    src: url(/fonts/Peyda-ExtraBold.ttf);
+}
+
+.lastSection {
+    background: rgba(199, 217, 246, 0.45);
+    backdrop-filter: blur(6.5px);
+    height: 633px;
+    width: 100%;
+}
+
+.contact {
+    height: 633px;
+    width: 100%;
+    background: rgba(199, 217, 246, 0.45);
+    backdrop-filter: blur(6.5px);
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.about {
+
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: flex-end;
+
+}
+
+.logo {
+    width: 184px;
+    height: 67.83px;
+    flex-shrink: 0;
+
+}
+
+.titleDescription {
+    width: 653px;
+    color: #000;
+    text-align: justify;
+    font-family: Peyda-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 653px;
+    text-align: right;
+
+}
+
+.email {
+    width: 566px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: var(--btn, 16px);
+    background: var(--600, #4063D0);
+    position: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+
+
+}
+
+.emailSearch {
+    color: rgba(0, 0, 0, 0.75);
+    font-family: Peyda;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    letter-spacing: -0.6px;
+    width: 501px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: var(--btn, 16px);
+    background: var(--50, #F1F5FD);
+    text-align: left;
+    outline: none;
+    border: none;
+    flex: 10;
+
+
+}
+
+.nameOfEmail {
+    color: #FFF;
+    font-family: peyda-light;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 5px;
+
+}
+
+.contactToUs {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: flex-end;
+    width: 400px;
+}
+
+.SocialMediaitem {
+    margin-left: 20px;
+    display: flex;
+    width: 400px;
+}
+
+.conection {
+    color: #000;
+    font-family: Sarbaz;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.calling {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+
+}
+
+.infoName {
+    color: #000;
+    font-family: Sarbaz;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.callInfo {
+    color: #000;
+    font-family: peyda-light;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+}
+
+.divCopy {
+    color: #000;
+    font-family: peyda-light;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    letter-spacing: -1px;
+    background: rgba(199, 217, 246, 0.45);
+    backdrop-filter: blur(6.5px);
+    margin-top: 0px;
+    height: 80px;
+}

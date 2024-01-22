@@ -2,6 +2,11 @@ import './Products.css'
 import cicle from '/image/Ellipse.png'
 import right from '/image/right.png'
 import left from '/image/left.png'
+import MallFirst from '/image/Foroshgah1.png'
+import MallSecond from '/image/Foroshgah2.png'
+import MallThird from '/image/Foroshgah3.png'
+import MallForth from '/image/Foroshgah4.png'
+
 
 
 const Cloths = [
@@ -9,7 +14,7 @@ const Cloths = [
     {
         "row": 1,
         "id": 1,
-        "nameOfpRODUCT": KapName,
+        "nameOfpRODUCT": "KapName",
         "name": "لویی ویتون",
         "size": "مدیوم",
         "color": "بنفش",
@@ -53,7 +58,7 @@ const Cloths = [
         "material": "نخ",
         "daysForRent": "یک ماهه",
         "days": "دو روز پیش",
-        "location": "اصفهان",
+        "location": "کاشان",
         "price": "1.200.000 تومان",
         "image": "./image/3.jpg",
         "loc": "./image/location icon.png"
@@ -83,7 +88,7 @@ const Cloths = [
     },
     {
         "row": 5,
-        "nameOfpRODUCT": "کاپشن",
+        "nameOfpRODUCT": "حسین گرجی",
 
         "id": 5,
 
@@ -94,7 +99,7 @@ const Cloths = [
         "daysForRent": "یک ماهه",
         "days": "دو روز پیش",
         "location": "اصفهان",
-        "price": "1.200.000 تومان",
+        "price": "رایگان",
         "image": "./image/5.jpg",
         "loc": "./image/location icon.png"
 
@@ -112,7 +117,7 @@ const Cloths = [
         "material": "نخ",
         "daysForRent": "یک ماهه",
         "days": "دو روز پیش",
-        "location": "اصفهان",
+        "location": "شهمیرزاد",
         "price": "1.200.000 تومان",
         "image": "./image/11.jpg",
         "loc": "./image/location icon.png"
@@ -143,7 +148,6 @@ const Cloths = [
     {
         "row": 8,
         "nameOfpRODUCT": "کاپشن",
-
         "id": 8,
 
         "name": "لویی ویتون",
@@ -153,7 +157,7 @@ const Cloths = [
         "daysForRent": "یک ماهه",
         "days": "دو روز پیش",
         "location": "اصفهان",
-        "price": "1.200.000 تومان",
+        "price": "یک صلوات",
         "image": "./image/8.jpg",
         "loc": "./image/location icon.png"
 
@@ -182,18 +186,18 @@ const Cloths = [
     },
     {
         "row": 10,
-        "nameOfpRODUCT": "کاپشن",
+        "nameOfpRODUCT": "زن آقای اکبری ",
 
         "id": 10,
 
-        "name": "لویی ویتون",
-        "size": "مدیوم",
-        "color": "بنفش",
-        "material": "نخ",
-        "daysForRent": "یک ماهه",
+        "name": " همراه اول",
+        "size": "لارج",
+        "color": "صورتی",
+        "material": "شیشه",
+        "daysForRent": "ده روز",
         "days": "دو روز پیش",
-        "location": "اصفهان",
-        "price": "1.200.000 تومان",
+        "location": "ان",
+        "price": "1.2000.0000 تومان",
         "image": "./image/14.jpg",
         "loc": "./image/location icon.png"
 
@@ -256,7 +260,7 @@ const Cloths = [
     },
     {
         "row": 1,
-        "nameOfpRODUCT": "کاپشن",
+        "nameOfpRODUCT": " ننده قرآن",
 
         "id": 2,
         "name": "لویی ویتون",
@@ -266,7 +270,7 @@ const Cloths = [
         "daysForRent": "یک ماهه",
         "days": "دو روز پیش",
         "location": "اصفهان",
-        "price": "1.200.000 تومان",
+        "price": "10000 تومان",
         "image": "./image/2.jpg",
         "loc": "./image/location icon.png"
 
@@ -285,7 +289,7 @@ const Cloths = [
         "material": "نخ",
         "daysForRent": "یک ماهه",
         "days": "دو روز پیش",
-        "location": "اصفهان",
+        "location": "پونک",
         "price": "1.200.000 تومان",
         "image": "./image/3.jpg",
         "loc": "./image/location icon.png"
@@ -334,7 +338,7 @@ const Cloths = [
     },
     {
         "row": 6,
-        "nameOfpRODUCT": "کاپشن",
+        "nameOfpRODUCT": "زیر کباب",
 
         "id": 6,
 
@@ -354,18 +358,18 @@ const Cloths = [
     },
     {
         "row": 7,
-        "nameOfpRODUCT": "کاپشن",
+        "nameOfpRODUCT": "آقا اکبری",
 
         "id": 7,
 
-        "name": "لویی ویتون",
-        "size": "مدیوم",
-        "color": "بنفش",
-        "material": "نخ",
-        "daysForRent": "یک ماهه",
-        "days": "دو روز پیش",
+        "name": "اپل",
+        "size": "مدیوم بزرگسال",
+        "color": "طوسی",
+        "material": "پنبه",
+        "daysForRent": "مادام العمر",
+        "days": "هر روز",
         "location": "اصفهان",
-        "price": "1.200.000 تومان",
+        "price": "Priceless",
         "image": "./image/7.jpg",
         "loc": "./image/location icon.png"
 
@@ -404,7 +408,7 @@ const Cloths = [
         "material": "نخ",
         "daysForRent": "یک ماهه",
         "days": "دو روز پیش",
-        "location": "اصفهان",
+        "location": "سمنان",
         "price": "1.200.000 تومان",
         "image": "./image/9.jpg",
         "loc": "./image/location icon.png"
@@ -414,7 +418,7 @@ const Cloths = [
     },
     {
         "row": 10,
-        "nameOfpRODUCT": "کاپشن",
+        "nameOfpRODUCT": "شهلا زن قاری",
 
         "id": 10,
 
@@ -425,7 +429,7 @@ const Cloths = [
         "daysForRent": "یک ماهه",
         "days": "دو روز پیش",
         "location": "اصفهان",
-        "price": "1.200.000 تومان",
+        "price": "100 کیلو نمک",
         "image": "./image/14.jpg",
         "loc": "./image/location icon.png"
 
@@ -434,7 +438,7 @@ const Cloths = [
     },
     {
         "row": 11,
-        "nameOfpRODUCT": "کاپشن",
+        "nameOfpRODUCT": "زرا گرجی",
 
         "id": 11,
 
@@ -445,7 +449,7 @@ const Cloths = [
         "daysForRent": "یک ماهه",
         "days": "دو روز پیش",
         "location": "اصفهان",
-        "price": "1.200.000 تومان",
+        "price": "10000 تومان",
         "image": "./image/13.jpg",
         "loc": "./image/location icon.png"
 
@@ -485,24 +489,28 @@ export default function Products() {
 
                     <div key={cloth.id} className='listOfProductInBox'>
                         <div className='description'>
-                            <h4 className='attribute'>{cloth.name}.</h4>
-                            <h4 className='attribute'>{cloth.size}.</h4>
-                            <h4 className='attribute'>{cloth.color}.</h4>
-                            <h4 className='attribute'>:{cloth.daysForRent}.</h4>
+                            <div className='attributes'>
+                                <h2 className='nameOfpRODUCT'>{cloth.nameOfpRODUCT}</h2>
+                                <h4 className='attribute'>{cloth.name}.</h4>
+                                <h4 className='attribute'>{cloth.size}.</h4>
+                                <h4 className='attribute'>{cloth.color}.</h4>
+                                <h4 className='attribute'>{cloth.material}.</h4>
+                                <div className='TimeAndPrice'>
+                                    <h4 className='attribute'>:{cloth.daysForRent}.</h4>
+                                    <h2 className='price'>{cloth.price}</h2>
+                                </div>
+                                <div className='DaysAndLoc'>
+                                    <h4 className='attribute'>{cloth.days}.</h4>
+                                    <div className='location'>
+                                        <h6>{cloth.location}</h6>
+                                        <img src={cloth.loc} />
+                                    </div>
+                                </div>
 
-                            <h4 className='attribute'>{cloth.material}.</h4>
-                            <h4 className='attribute'>{cloth.days}.</h4>
-                        </div>
-                        <div className='priceAndLocation'>
-                            <h2 className='nameOfpRODUCT'>{cloth.nameOfpRODUCT}</h2>
-                            <h2 className='price'>{cloth.price}</h2>
-                            <div className='location'>
-                                <h6>{cloth.location}</h6>
-                                <img src={cloth.loc} />
                             </div>
-                        </div>
-                        <div className='img'>
-                            <img src={cloth.image} className='clothImage' />
+                            <div className='img'>
+                                <img src={cloth.image} className='clothImage' />
+                            </div>
                         </div>
 
                     </div>
@@ -525,7 +533,7 @@ export default function Products() {
 
                     </div>
                     <div className='page'>
-                        <p className='number'>...</p>
+                        <p className='dote'>...</p>
 
                         <a href='!#'><img src={cicle} /></a>
 
@@ -577,7 +585,7 @@ export default function Products() {
 
                     </div>
                     <div className='page'>
-                       
+
 
                         <a href='!#'><img src={right} /></a>
 
@@ -585,6 +593,38 @@ export default function Products() {
 
 
                 </div>
+            </div>
+            <div className='NamesMalls'>
+                <p className='montakhab'>فروشگاه‌های منتخب</p>
+                <div className='Malss'>
+                    <div className='Mall'>
+                        <img src={MallFirst} />
+                        <p className='selasPlace'>فروشگاه ورناس</p>
+                        <p className='city'>کرج</p>
+                    </div>
+                    <div className='Mall'>
+                        <img src={MallSecond} />
+                        <p className='selasPlace'>فروشگاه دیان</p>
+                        <p className='city'>مشهد</p>
+
+                    </div>
+                    <div className='Mall'>
+                        <img src={MallThird} />
+                        <p className='selasPlace'>فروشگاه برک</p>
+                        <p className='city'>تهران</p>
+
+                    </div>
+                    <div className='Mall'>
+                        <img src={MallForth} />
+                        <p className='selasPlace'>فروشگاه دارمیس</p>
+                        <p className='city'>شیراز</p>
+
+                    </div>
+
+
+
+                </div>
+
             </div>
         </>
 
