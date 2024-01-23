@@ -12,10 +12,6 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />
         </Routes>
-
-        <footer>
-          <p>&copy; 2024 My React App</p>
-        </footer>
       </div>
     </Router>
   );

@@ -1,0 +1,159 @@
+@font-face {
+    font-family: "peyda-light";
+    src: url(/fonts/peyda-light.ttf);
+}
+
+@font-face {
+    font-family: "Peyda-Black";
+    src: url(/fonts/Peyda-Blackt.ttf);
+}
+
+
+@font-face {
+    font-family: "Peyda-Medium";
+    src: url(/fonts/Peyda-Medium);
+}
+
+@font-face {
+    font-family: "Peyda-Black";
+    src: url(/fonts/Peyda-Black);
+}
+
+@font-face {
+    font-family: "Peyda-ExtraBold";
+    src: url(/fonts/Peyda-ExtraBold.ttf);
+}
+
+.TotalPage {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 34.281px;
+    background: var(--50, #F1F5FD);
+    display: flex;
+  
+    padding-top: 64px ;
+    padding-bottom: 238px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 34.281px;
+}
+
+.LoginPart {
+    width: 659px;
+    height: 557px;
+    display: flex;
+    border-radius: 28px;
+    background: var(--FRAME-STYLE, rgba(255, 255, 255, 0.07));
+    box-shadow: 0px 0px 7.9px 2px rgba(45, 60, 125, 0.40);
+    backdrop-filter: blur(6.5px);
+    justify-content: center;
+
+}
+
+.mainLogoInTop {
+    width: 354.597px;
+    height: 130.719px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signupLogo {
+
+    fill: var(--950, #1F264C);
+    opacity: 0.892;
+    object-fit: cover;
+    width: 354.597px;
+    height: 130.719px;
+    flex-shrink: 0;
+}
+
+.registeration {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.reg {
+    color: #000;
+    text-align: center;
+    font-family: Sarbaz;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px;
+}
+
+.PRg {
+    margin: 10px;
+
+}
+
+.UserInput {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+
+
+}
+
+.inputSingUP {
+    width: 444px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 19px;
+    border: 1px solid var(--400, #759FE5);
+    background: var(--100, #E0E9F9);
+    padding: 1px;
+    margin: 15px;
+    color: #759FE5;
+    color: #000;
+    text-align: center;
+    font-family: peyda-light;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -1.2px;
+    text-align: center;
+
+}
+
+.btn {
+    width: 111px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: var(--btn, 16px);
+    background: var(--600, #4063D0);
+    margin: 0px;
+}
+
+.btn {
+    color: #FFF;
+    text-align: center;
+    font-family: peyda-light;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -1.6px;
+    border: none;
+
+}
+
+.warrning {
+    color: #000;
+    text-align: center;
+    font-family: peyda-light;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -1px;
+}
