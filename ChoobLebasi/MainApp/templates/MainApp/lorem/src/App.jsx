@@ -3,14 +3,22 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/main.jsx';
 import Login from './pages/login.jsx';
 import Contact from './pages/contact.jsx';
+import User from './pages/user.jsx'
+import Entry from './pages/entry.jsx'
+
+
 function App() {
   return (
     <Router>
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/contact" element={<Contact/>}/>
           <Route path="/login" element={<Login />} />
+          <Route path="/user" element={<User/>} />
+          <Route path="/entry" element={<Entry/>}/>
+ 
+            
         </Routes>
       </div>
     </Router>

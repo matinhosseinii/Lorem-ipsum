@@ -89,7 +89,7 @@
 
 .emailSearch {
     color: rgba(0, 0, 0, 0.75);
-    font-family: Peyda;
+    font-family: peyda-light;
     font-size: 18px;
     font-style: normal;
     font-weight: 200;
@@ -100,7 +100,7 @@
     flex-shrink: 0;
     border-radius: var(--btn, 16px);
     background: var(--50, #F1F5FD);
-    text-align: left;
+    text-align: center;
     outline: none;
     border: none;
     flex: 10;

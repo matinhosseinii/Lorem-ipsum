@@ -1,5 +1,4 @@
 import '../components/Login.css'
-// import logo from '/image/logo.png';
 import firstLogo from '/image/firstLogo.png'
 import { useState } from 'react';
 
