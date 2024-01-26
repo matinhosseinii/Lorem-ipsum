@@ -5,6 +5,8 @@ import Login from './pages/login.jsx';
 import Contact from './pages/contact.jsx';
 import User from './pages/user.jsx'
 import Entry from './pages/entry.jsx'
+import Subscribe from './pages/subscribe.jsx'
+import Modal from './components/Modal.jsx'
 
 
 function App() {
@@ -13,12 +15,12 @@ function App() {
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/contact" element={<Contact/>}/>
+          <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/user" element={<User/>} />
-          <Route path="/entry" element={<Entry/>}/>
- 
-            
+          <Route path="/user" element={<User />} />
+          <Route path="/entry" element={<Entry />} />
+          <Route path="/subscribe" element={<Subscribe />} />
+          <Route path="/modal" element={<Modal/>}/>
         </Routes>
       </div>
     </Router>

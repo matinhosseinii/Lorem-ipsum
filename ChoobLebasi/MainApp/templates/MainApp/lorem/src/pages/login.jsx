@@ -8,16 +8,19 @@ export default function login() {
   const [pass, setPass] = useState('');
   const [name, setName] = useState('');
 
-  const handleSubmit = (e) => {
+  // const handleSubmit = (e) => {
 
-    e.preventDefault();
+  //   e.preventDefault();
 
-    console.log(`Form submitted, ${user}`);
-    console.log(`Form submitted, ${phone}`);
-    console.log(`Form submitted, ${pass}`);
-    console.log(`Form submitted, ${name}`);
+  //   console.log(`Form submitted, ${user}`);
+  //   console.log(`Form submitted, ${phone}`);
+  //   console.log(`Form submitted, ${pass}`);
+  //   console.log(`Form submitted, ${name}`);
 
-  }
+  // }
+  const openInNewTab = url => {
+    window.open(url, '_blank', 'noopener,noreferrer');
+  };
   return (
     <div className="TotalPage">
       <div className="mainLogoInTop">
@@ -39,7 +42,7 @@ export default function login() {
               onChange={(e) => setName(e.target.value)} className='inputSingUP' placeholder="تایید رمز عبور" />
           </div>
           <div>
-            <button type="submit" onClick={handleSubmit} className='btn'>ثبت نام</button>
+            <button type="submit"  onClick={() => openInNewTab('./')} className='btn'>ثبت نام</button>
           </div>
           <div className='warrning'>
             <p className='warnningP'>.ثبت نام شما به منزله‌ی پذیرفتن شرایط استفاده از خدمات و حریم خصوصی چوب لباسی می‌باشد</p>

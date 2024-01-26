@@ -62,7 +62,7 @@ export default function Navbar() {
                     <a href='!#' className='ListItem' target='_self'>فروشگاه</a>
                 </li>
                 <li className='list'>
-                    <a href='!#' className='ListItem' target='_self'>طرح های اشتراک</a>
+                    <a href='./subscribe' className='ListItem' target='_self'>طرح های اشتراک</a>
                 </li>
                 <li className='list'>
                     <a href='!#' className='ListItem' target='_self'>پرسش های متداول</a>

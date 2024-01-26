@@ -34,7 +34,7 @@ export default function user() {
                     <div>
                     </div>
                     
-                        <button href='./' type="submit" onClick={handleSubmit} className='Secondbtn'>ورود</button>
+                        <a href='./' type="submit" onClick={handleSubmit} className='Secondbtn'>ورود</a>
                  
                     <div className='passPart'>
                         <p className='passWarnning'>استفاده از رمز عبور یک‌بارمصرف</p>

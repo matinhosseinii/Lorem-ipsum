@@ -1,0 +1,183 @@
+@font-face {
+    font-family: "Sarbaz";
+    src: url(static/fonts/Sarbaz.ttf);
+}
+@font-face {
+    font-family: "Peyda-Regular";
+    src: url(static/fonts/Peyda-Regular.ttf);
+}
+@font-face {
+    font-family: "peyda-extralight";
+    src: url(static/fonts/peyda-extralight.ttf);
+}
+
+@font-face {
+    font-family:"Peyda-Medium";
+    src: url(/fonts/Sarbaz.ttf);
+}
+@font-face {
+    font-family: "Peyda-Thin";
+    src: url(/fonts/Peyda-Thin.ttf);
+}
+
+@font-face {
+    font-family: "Peyda-light";
+    src: url(/fonts/Peyda-light.ttf);
+}
+
+@font-face {
+    font-family: "Peyda-Black";
+    src: url(/fonts/Peyda-Black.ttf);
+}
+
+@font-face {
+    font-family: "Peyda-ExtraBold";
+    src: url(/fonts/Peyda-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "Potk-Font";
+    src: url(/fonts/PotkFont.woff2);
+}
+
+.subPage {
+    background-color: #F1F5FD;
+    width: 100%;
+    height: 1024px;
+}
+
+.sub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paragraphForSub {
+    width: 767px;
+    display: felx;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.ideaP {
+    color: var(--950, #1F264C);
+    text-align: center;
+    font-family: Potk-Font;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.idea {
+    margin: 0px;
+}
+
+.notifBigParaghraph {
+    color: #000;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Peyda-light;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -0.84px;
+
+}
+
+.notifSmallParagraph {
+    color: #000;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Peyda-light;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0%;
+    /* 0px */
+    letter-spacing: -0.84px;
+}
+
+.buySub {
+    margin-top: 28px;
+}
+
+.buysubParagraphPart {
+    width: 349px;
+    height: 224px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    background: var(--FRAME-STYLE, rgba(255, 255, 255, 0.07));
+    box-shadow: 0px 0px 7.9px 2px rgba(45, 60, 125, 0.40);
+    backdrop-filter: blur(6.5px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.active {
+    color: #000;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Sarbaz;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 7px;
+    margin-top: 0px;
+}
+
+/* .subBtn {
+  
+    flex-shrink: 0;
+    border-radius: var(--btn, 16px);
+    border: 1px solid var(--400, #759FE5);
+    background: var(--100, #E0E9F9);
+    margin: 5px;
+    color: #000;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Peyda-light;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+} */
+
+.subBtn1 {
+    width: 192px;
+    height: 41px;
+    flex-shrink: 0;
+    border-radius: var(--btn, 16px);
+    border: 1px solid var(--400, #759FE5);
+    background: var(--100, #E0E9F9);
+    margin: 5px;
+    color: #000;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Peyda-light;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.lonkTOSub{
+    text-decoration: none;
+  cursor: auto;
+}
