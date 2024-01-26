@@ -10,6 +10,7 @@ import './Navbar.css'
 export default function Navbar() {
     const [inputValue, setInputValue] = useState('');
     const profile = 'static/image/AVATAR.png'
+    const logo = 'static/image/logo.png'
     
 
     const handleInputChange = (event) => {

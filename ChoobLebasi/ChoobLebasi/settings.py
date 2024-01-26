@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'MainApp.apps.MainappConfig'
 ]
 
+AUTH_USER_MODEL = 'MainApp.User'
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -56,7 +58,7 @@ ROOT_URLCONF = 'ChoobLebasi.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'MainApp', 'templates', 'MainApp', 'lorem'],
+        'DIRS': [os.path.join(BASE_DIR, 'MainApp', 'templates', 'MainApp', 'lorem')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -119,9 +121,11 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR /  'MainApp','templates','MainApp', 'lorem', 'public'),
-    os.path.join(BASE_DIR / 'MainApp','templates','MainApp', 'lorem', 'public'),
-]
+    os.path.join(BASE_DIR, 'MainApp', 'templates', 'MainApp', 'lorem', 'public'),
+    os.path.join(BASE_DIR, 'MainApp', 'templates', 'MainApp', 'lorem', 'public')]
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'Static/Media'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en''/4.2/ref/settings/#default-auto-field
