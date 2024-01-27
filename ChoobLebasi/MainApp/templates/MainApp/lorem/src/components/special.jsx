@@ -1,4 +1,4 @@
-import React, { useState } from 'react'; 
+import  { useState } from 'react'; 
 import Navbar from './Navbar'; 
 import Modal from '../components/Modal'; 
 import { useNavigate } from 'react-router-dom'; 
@@ -34,11 +34,11 @@ export default function Subscription() {
                 </div> 
                 <div className='buySub'> 
                     <div className='buysubParagraphPart'> 
-                        <p className='active'>!اشتراک فعال ندارید</p> 
+                        <p className='active'>! اشتراک شما ویژه است </p> 
                         {/* <a href='!#' className='lonkTOSub'> */} 
  
                         <button className='subBtn1' onClick={openModal}> 
-                خرید اشتراک 
+                        ۱۳ روز تا پایان اشتراک 
             </button> 
  
                         {/* </a> */} 
