@@ -10,6 +10,14 @@ import varzeshi from '/image/kit.png'
 
 
 export default function Cermony() {
+    const doostane = 'static/image/party.png'
+    const khanevade = 'static/image/family.png'
+    const mazhabi = 'static/image/mosque.png'
+    const tavalod = 'static/image/birth.png'
+    const mosaferat = 'static/image/travel.png'
+    const khaksepari = 'static/image/grave.png'
+    const aroosi = 'static/image/heart.png'
+    const varzeshi = 'static/image/kit.png'
     return (
         <div className='ThirdPart'>
             <div className='choosingText'>

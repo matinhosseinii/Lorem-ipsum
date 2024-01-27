@@ -1,42 +1,42 @@
 @font-face {
     font-family: "Sarbaz";
-    src: url(static/fonts/Sarbaz.ttf);
+    src: url(../static/fonts/Sarbaz.ttf);
 }
 @font-face {
     font-family: "Peyda-Regular";
-    src: url(static/fonts/Peyda-Regular.ttf);
+    src: url(../static/fonts/Peyda-Regular.ttf);
 }
 @font-face {
     font-family: "peyda-extralight";
-    src: url(static/fonts/peyda-extralight.ttf);
+    src: url(../static/fonts/peyda-extralight.ttf);
 }
 
 @font-face {
     font-family:"Peyda-Medium";
-    src: url(/fonts/Sarbaz.ttf);
+    src: url(../static/fonts/Sarbaz.ttf);
 }
 @font-face {
     font-family: "Peyda-Thin";
-    src: url(/fonts/Peyda-Thin.ttf);
+    src: url(../static/fonts/Peyda-Thin.ttf);
 }
 
 @font-face {
     font-family: "Peyda-light";
-    src: url(/fonts/Peyda-light.ttf);
+    src: url(../static/fonts/Peyda-light.ttf);
 }
 
 @font-face {
     font-family: "Peyda-Black";
-    src: url(/fonts/Peyda-Black.ttf);
+    src: url(../static/fonts/Peyda-Black.ttf);
 }
 
 @font-face {
     font-family: "Peyda-ExtraBold";
-    src: url(/fonts/Peyda-ExtraBold.ttf);
+    src: url(../static/fonts/Peyda-ExtraBold.ttf);
 }
 @font-face {
     font-family: "Potk-Font";
-    src: url(/fonts/PotkFont.woff2);
+    src: url(../static/fonts/PotkFont.woff2);
 }
 
 .subPage {

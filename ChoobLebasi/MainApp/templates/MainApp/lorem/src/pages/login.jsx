@@ -3,6 +3,7 @@ import firstLogo from '/image/firstLogo.png'
 import { useState } from 'react';
 
 export default function login() {
+  const firstLogo = '../static/image/firstLogo.png'
   const [user, setUser] = useState('');
   const [phone, setPhone] = useState('');
   const [pass, setPass] = useState('');

@@ -1,16 +1,16 @@
 @font-face {
     font-family: "PeydaBold";
-    src: url(/fonts/Peyda-Bold);
+    src: url(../static/fonts/Peyda-Bold);
 }
 
 @font-face {
     font-family: "Peyda-ExtraBold";
-    src: url(/fonts/Peyda-ExtraBold.ttf);
+    src: url(../static/fonts/Peyda-ExtraBold.ttf);
 }
 
 @font-face {
     font-family: "Sarbaz";
-    src: url(/fonts/Sarbaz.ttf);
+    src: url(../static/fonts/Sarbaz.ttf);
 }
 
  .listOfProductInBox {

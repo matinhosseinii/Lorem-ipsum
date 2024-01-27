@@ -2,6 +2,7 @@ import firstLogo from '/image/firstLogo.png'
 import { useState } from 'react';
 import '../components/entry.css'
 export default function entry() {
+    const firstLogo = '../static/image/firstLogo.png'
     const [pass, setpass] = useState('');
 
 

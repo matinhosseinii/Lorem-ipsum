@@ -23,8 +23,8 @@ const Cloths = [
         "days": "دو روز پیش",
         "location": "اصفهان",
         "price": "1.200.000 تومان",
-        "image": "./image/1.jpg",
-        "loc": "./image/location icon.png"
+        "image": "./static/image/1.jpg",
+        "loc": "./static/image/location icon.png"
 
     },
     {
@@ -40,8 +40,8 @@ const Cloths = [
         "days": "دو روز پیش",
         "location": "اصفهان",
         "price": "1.200.000 تومان",
-        "image": "./image/2.jpg",
-        "loc": "./image/location icon.png"
+        "image": "./static/image/2.jpg",
+        "loc": "./static/image/location icon.png"
 
 
 
@@ -58,10 +58,10 @@ const Cloths = [
         "material": "نخ",
         "daysForRent": "یک ماهه",
         "days": "دو روز پیش",
-        "location": "کاشان",
+        "location": "اصفهان",
         "price": "1.200.000 تومان",
-        "image": "./image/3.jpg",
-        "loc": "./image/location icon.png"
+        "image": "./static/image/3.jpg",
+        "loc": "./static/image/location icon.png"
 
 
 
@@ -80,8 +80,8 @@ const Cloths = [
         "days": "دو روز پیش",
         "location": "اصفهان",
         "price": "1.200.000 تومان",
-        "image": "./image/4.jpg",
-        "loc": "./image/location icon.png"
+        "image": "./static/image/4.jpg",
+        "loc": "./static/image/location icon.png"
 
 
 
@@ -100,8 +100,8 @@ const Cloths = [
         "days": "دو روز پیش",
         "location": "اصفهان",
         "price": "رایگان",
-        "image": "./image/5.jpg",
-        "loc": "./image/location icon.png"
+        "image": "./static/image/5.jpg",
+        "loc": "./static/image/location icon.png"
 
 
     },
@@ -117,10 +117,10 @@ const Cloths = [
         "material": "نخ",
         "daysForRent": "یک ماهه",
         "days": "دو روز پیش",
-        "location": "شهمیرزاد",
+        "location": "اصفهان",
         "price": "1.200.000 تومان",
-        "image": "./image/11.jpg",
-        "loc": "./image/location icon.png"
+        "image": "./static/image/11.jpg",
+        "loc": "./static/image/location icon.png"
 
 
 
@@ -139,8 +139,8 @@ const Cloths = [
         "days": "دو روز پیش",
         "location": "اصفهان",
         "price": "1.200.000 تومان",
-        "image": "./image/7.jpg",
-        "loc": "./image/location icon.png"
+        "image": "./static/image/7.jpg",
+        "loc": "./static/image/location icon.png"
 
 
 
@@ -158,8 +158,8 @@ const Cloths = [
         "days": "دو روز پیش",
         "location": "اصفهان",
         "price": "یک صلوات",
-        "image": "./image/8.jpg",
-        "loc": "./image/location icon.png"
+        "image": "./static/image/8.jpg",
+        "loc": "./static/image/location icon.png"
 
 
 
@@ -178,28 +178,28 @@ const Cloths = [
         "days": "دو روز پیش",
         "location": "اصفهان",
         "price": "1.200.000 تومان",
-        "image": "./image/9.jpg",
-        "loc": "./image/location icon.png"
+        "image": "./static/image/9.jpg",
+        "loc": "./static/image/location icon.png"
 
 
 
     },
     {
         "row": 10,
-        "nameOfpRODUCT": "زن آقای اکبری ",
+        "nameOfpRODUCT": "کاپشن",
 
         "id": 10,
 
-        "name": " همراه اول",
-        "size": "لارج",
-        "color": "صورتی",
-        "material": "شیشه",
-        "daysForRent": "ده روز",
+        "name": "لویی ویتون",
+        "size": "مدیوم",
+        "color": "بنفش",
+        "material": "نخ",
+        "daysForRent": "یک ماهه",
         "days": "دو روز پیش",
-        "location": "ان",
-        "price": "1.2000.0000 تومان",
-        "image": "./image/14.jpg",
-        "loc": "./image/location icon.png"
+        "location": "اصفهان",
+        "price": "1.200.000 تومان",
+        "image": "./static/image/14.jpg",
+        "loc": "./static/image/location icon.png"
 
 
 
@@ -218,8 +218,8 @@ const Cloths = [
         "days": "دو روز پیش",
         "location": "اصفهان",
         "price": "1.200.000 تومان",
-        "image": "./image/13.jpg",
-        "loc": "./image/location icon.png"
+        "image": "./static/image/13.jpg",
+        "loc": "./static/image/location icon.png"
 
 
 
@@ -237,8 +237,8 @@ const Cloths = [
         "days": "دو روز پیش",
         "location": "اصفهان",
         "price": "1.200.000 تومان",
-        "image": "./image/12.jpg",
-        "loc": "./image/location icon.png"
+        "image": "./static/image/12.jpg",
+        "loc": "./static/image/location icon.png"
 
 
     },
@@ -254,13 +254,13 @@ const Cloths = [
         "days": "دو روز پیش",
         "location": "اصفهان",
         "price": "1.200.000 تومان",
-        "image": "./image/1.jpg",
-        "loc": "./image/location icon.png"
+        "image": "./static/image/1.jpg",
+        "loc": "./static/image/location icon.png"
 
     },
     {
         "row": 1,
-        "nameOfpRODUCT": " ننده قرآن",
+        "nameOfpRODUCT": "کاپشن",
 
         "id": 2,
         "name": "لویی ویتون",
@@ -270,9 +270,9 @@ const Cloths = [
         "daysForRent": "یک ماهه",
         "days": "دو روز پیش",
         "location": "اصفهان",
-        "price": "10000 تومان",
-        "image": "./image/2.jpg",
-        "loc": "./image/location icon.png"
+        "price": "1.200.000 تومان",
+        "image": "./static/image/2.jpg",
+        "loc": "./static/image/location icon.png"
 
 
 
@@ -289,10 +289,10 @@ const Cloths = [
         "material": "نخ",
         "daysForRent": "یک ماهه",
         "days": "دو روز پیش",
-        "location": "پونک",
+        "location": "اصفهان",
         "price": "1.200.000 تومان",
-        "image": "./image/3.jpg",
-        "loc": "./image/location icon.png"
+        "image": "./static/image/3.jpg",
+        "loc": "./static/image/location icon.png"
 
 
 
@@ -311,8 +311,8 @@ const Cloths = [
         "days": "دو روز پیش",
         "location": "اصفهان",
         "price": "1.200.000 تومان",
-        "image": "./image/4.jpg",
-        "loc": "./image/location icon.png"
+        "image": "./static/image/4.jpg",
+        "loc": "./static/image/location icon.png"
 
 
 
@@ -331,14 +331,14 @@ const Cloths = [
         "days": "دو روز پیش",
         "location": "اصفهان",
         "price": "1.200.000 تومان",
-        "image": "./image/5.jpg",
-        "loc": "./image/location icon.png"
+        "image": "./static/image/5.jpg",
+        "loc": "./static/image/location icon.png"
 
 
     },
     {
         "row": 6,
-        "nameOfpRODUCT": "زیر کباب",
+        "nameOfpRODUCT": "کاپشن",
 
         "id": 6,
 
@@ -350,28 +350,28 @@ const Cloths = [
         "days": "دو روز پیش",
         "location": "اصفهان",
         "price": "1.200.000 تومان",
-        "image": "./image/11.jpg",
-        "loc": "./image/location icon.png"
+        "image": "./static/image/11.jpg",
+        "loc": "./static/image/location icon.png"
 
 
 
     },
     {
         "row": 7,
-        "nameOfpRODUCT": "آقا اکبری",
+        "nameOfpRODUCT": "کاپشن",
 
         "id": 7,
 
-        "name": "اپل",
-        "size": "مدیوم بزرگسال",
-        "color": "طوسی",
-        "material": "پنبه",
-        "daysForRent": "مادام العمر",
-        "days": "هر روز",
+        "name": "لویی ویتون",
+        "size": "مدیوم",
+        "color": "بنفش",
+        "material": "نخ",
+        "daysForRent": "یک ماهه",
+        "days": "دو روز پیش",
         "location": "اصفهان",
-        "price": "Priceless",
-        "image": "./image/7.jpg",
-        "loc": "./image/location icon.png"
+        "price": "1.200.000 تومان",
+        "image": "./static/image/7.jpg",
+        "loc": "./static/image/location icon.png"
 
 
 
@@ -390,8 +390,8 @@ const Cloths = [
         "days": "دو روز پیش",
         "location": "اصفهان",
         "price": "1.200.000 تومان",
-        "image": "./image/8.jpg",
-        "loc": "./image/location icon.png"
+        "image": "./static/image/8.jpg",
+        "loc": "./static/image/location icon.png"
 
 
 
@@ -410,15 +410,15 @@ const Cloths = [
         "days": "دو روز پیش",
         "location": "سمنان",
         "price": "1.200.000 تومان",
-        "image": "./image/9.jpg",
-        "loc": "./image/location icon.png"
+        "image": "./static/image/9.jpg",
+        "loc": "./static/image/location icon.png"
 
 
 
     },
     {
         "row": 10,
-        "nameOfpRODUCT": "شهلا زن قاری",
+        "nameOfpRODUCT": "کاپشن",
 
         "id": 10,
 
@@ -429,16 +429,16 @@ const Cloths = [
         "daysForRent": "یک ماهه",
         "days": "دو روز پیش",
         "location": "اصفهان",
-        "price": "100 کیلو نمک",
-        "image": "./image/14.jpg",
-        "loc": "./image/location icon.png"
+        "price": "1.200.000 تومان",
+        "image": "./static/image/14.jpg",
+        "loc": "./static/image/location icon.png"
 
 
 
     },
     {
         "row": 11,
-        "nameOfpRODUCT": "زرا گرجی",
+        "nameOfpRODUCT": "کاپشن",
 
         "id": 11,
 
@@ -449,9 +449,9 @@ const Cloths = [
         "daysForRent": "یک ماهه",
         "days": "دو روز پیش",
         "location": "اصفهان",
-        "price": "10000 تومان",
-        "image": "./image/13.jpg",
-        "loc": "./image/location icon.png"
+        "price": "1.200.000 تومان",
+        "image": "./static/image/13.jpg",
+        "loc": "./static/image/location icon.png"
 
 
 
@@ -469,8 +469,8 @@ const Cloths = [
         "days": "دو روز پیش",
         "location": "اصفهان",
         "price": "1.200.000 تومان",
-        "image": "./image/12.jpg",
-        "loc": "./image/location icon.png"
+        "image": "./static/image/12.jpg",
+        "loc": "./static/image/location icon.png"
 
 
     }
@@ -479,6 +479,13 @@ const Cloths = [
 ]
 
 export default function Products() {
+    const cicle = 'static/image/Ellipse.png'
+    const right = 'static/image/right.png'
+    const left = 'static/image/left.png'
+    const MallFirst = 'static/image/Foroshgah1.png'
+    const MallSecond = 'static/image/Foroshgah2.png'
+    const MallThird = 'static/image/Foroshgah3.png'
+    const MallForth = 'static/image/Foroshgah4.png'
     return (
         <>
             <p className='title'>جدید ترین ها</p>
