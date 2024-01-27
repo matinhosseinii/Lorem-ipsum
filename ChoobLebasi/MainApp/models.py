@@ -46,3 +46,6 @@ class Subscription(models.Model):
     Type = models.CharField(max_length=100)
     Price = models.DecimalField(max_digits=15,decimal_places=0, null=False)
     Benefits = models.CharField(max_length=255)
+
+    def __str__(self):
+        return self.Type
