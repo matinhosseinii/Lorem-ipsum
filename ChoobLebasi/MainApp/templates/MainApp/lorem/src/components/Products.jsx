@@ -14,7 +14,7 @@ const Cloths = [
     {
         "row": 1,
         "id": 1,
-        "nameOfpRODUCT": "KapName",
+        "nameOfpRODUCT": "کاپشن",
         "name": "لویی ویتون",
         "size": "مدیوم",
         "color": "بنفش",
@@ -88,7 +88,7 @@ const Cloths = [
     },
     {
         "row": 5,
-        "nameOfpRODUCT": "حسین گرجی",
+        "nameOfpRODUCT": " کاپشن",
 
         "id": 5,
 
