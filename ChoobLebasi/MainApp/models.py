@@ -40,3 +40,9 @@ class Product(models.Model):
     Price = models.DecimalField(max_digits=15,decimal_places=0, null=False)
     Image = models.ImageField(upload_to=ChangeName, null=False)
     Matadata = models.CharField(max_length=2000)
+
+
+class Subscription(models.Model):
+    Type = models.CharField(max_length=100)
+    Price = models.DecimalField(max_digits=15,decimal_places=0, null=False)
+    Benefits = models.CharField(max_length=255)
