@@ -4,6 +4,7 @@ import { useState } from 'react';
 export default function user() {
     const [pass, setpass] = useState('');
     const [phone, setPhone] = useState('');
+    const firstLogo = '../static/image/firstLogo.png'
 
     const handleSubmit = (e) => {
 
