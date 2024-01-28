@@ -1,10 +1,10 @@
 @font-face {
     font-family: "Potk-Font";
-    src: url(/fonts/PotkFont.woff2);
+    src: url(static/fonts/PotkFont.woff2);
 }
 @font-face {
     font-family: "Peyda-light";
-    src: url(/fonts/Peyda-light.ttf);
+    src: url(static/fonts/Peyda-light.ttf);
 }
 
 .modal-overlay {

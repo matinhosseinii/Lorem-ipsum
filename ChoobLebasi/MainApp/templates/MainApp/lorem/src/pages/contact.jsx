@@ -3,6 +3,7 @@ import '../components/Contact.css'
 import logo from '/image/logo.png'
 
 export default function Contact() {
+    const logo = '../static/image/logo.png'
     const [input, setValue] = useState('');
 
     const handleInputChange = (event) => {

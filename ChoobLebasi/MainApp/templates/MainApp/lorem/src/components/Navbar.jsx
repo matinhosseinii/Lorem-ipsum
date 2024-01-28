@@ -9,9 +9,11 @@ import './Navbar.css'
 
 export default function Navbar() {
     const [inputValue, setInputValue] = useState('');
-    const profile = 'static/image/AVATAR.png'
-    const logo = 'static/image/logo.png'
-    
+    const profile = '../static/image/AVATAR.png'
+    const logo = '../static/image/logo.png'
+    const notification = '../static/image/NOTIFICATION.png'
+    const cart = '../static/image/CART.png'
+    const serach = '../static/image/search icon.png'
 
     const handleInputChange = (event) => {
         setInputValue(event.target.value);

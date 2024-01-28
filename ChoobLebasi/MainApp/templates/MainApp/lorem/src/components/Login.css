@@ -1,27 +1,27 @@
 @font-face {
     font-family: "peyda-light";
-    src: url(/fonts/peyda-light.ttf);
+    src: url(static/fonts/peyda-light.ttf);
 }
 
 @font-face {
     font-family: "Peyda-Black";
-    src: url(/fonts/Peyda-Blackt.ttf);
+    src: url(static/fonts/Peyda-Blackt.ttf);
 }
 
 
 @font-face {
     font-family: "Peyda-Medium";
-    src: url(/fonts/Peyda-Medium);
+    src: url(static/fonts/Peyda-Medium);
 }
 
 @font-face {
     font-family: "Peyda-Black";
-    src: url(/fonts/Peyda-Black);
+    src: url(static/fonts/Peyda-Black);
 }
 
 @font-face {
     font-family: "Peyda-ExtraBold";
-    src: url(/fonts/Peyda-ExtraBold.ttf);
+    src: url(static/fonts/Peyda-ExtraBold.ttf);
 }
 
 .TotalPage {
