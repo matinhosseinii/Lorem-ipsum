@@ -1,5 +1,4 @@
 # Lorem-ipsum
-project: 
 ## Choob Lebasi
 ---------------------------
 <details>
@@ -23,27 +22,26 @@ project:
 
 ## About The Project
 
-The Project has been implemented for Software engeeniring Course in Semnan University.
-Of course, Project has some deficiency...:)
+The project has been implemented for the software engineering course at Semnan University.
+<br>Of course, the project has some deficiencies… :)
 
 ### Built With
 
-Here is our framework/libraries has been used for Project.
+These are the frameworks/libraries that we have used for the project.
 
-* [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
 * [![Vite][vitejs.dev]][Vite-url]
-* [![Django][djangoproject.com/]][Django-url]
+* [![Django][djangoproject.com]][Django-url]
 
 ## Getting Started
 
-For getting ready to use code structure follow below section
+To run the project, follow the steps below.
 
 ### Prerequisites
 
 Install Python and NodeJs:
-1. Get latest [https://python.org/](Python Version)
-1. Get latest [https://nodejs.org/](NodeJs Version)
+1. Get latest [Python Version](https://python.org/)
+1. Get latest [NodeJs](https://nodejs.org/)
 
 ### Installation
 
@@ -51,15 +49,22 @@ Install Python and NodeJs:
    ```sh
    pip install Django
    ```
-2. 
+2. Route to Frontend directory & Install Node modules
    ```sh
-   
+   npm Install
    ```
-3. 
+3. Run Frontend
    ```sh
-   
+   npm run dev
    ```
-4. 
-   ```js
-   
+4. Run Backend
+   ```sh
+   python manage.py runserver
    ```
+
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[vitejs.dev]: https://img.shields.io/badge/ViteJs-yellow?style=for-the-badge&logo=Vite
+[Vite-url]: https://vitejs.dev/
+[djangoproject.com]: https://img.shields.io/badge/Django-darkgreen?style=for-the-badge&logo=django
+[Django-url]: https://djangoproject.com/
